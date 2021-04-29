@@ -1,4 +1,8 @@
 /* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+*{
+    width: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
