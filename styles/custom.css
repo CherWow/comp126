@@ -2,11 +2,22 @@ body {
     padding: 0;
     margin: 0;
     background: #e6e1dd;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* .col-12 {
-    background-color: ;
-} */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.75em;
+}
 
 nav {
     background-color: #ddefe3 !important;
@@ -26,8 +37,20 @@ nav {
 img {
     /* max-height: 25%; */
     max-width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: auto;
+}
+
+.card-group {
+    background-color: #e6e1dd;
+    padding: 20px;
+}
+
+.card {
+    background-color: #e5d8c8;
+}
+
+#sidebar {
+    padding: 20px;
 }
 
 #footer {
@@ -39,3 +62,4 @@ img {
 #button-hov:hover {
     background-color: #cce8cf;
 } 
+
