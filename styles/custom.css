@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     padding: 0;
     margin: 0;
     background: #e6e1dd;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -19,26 +23,48 @@ p {
     font-size: 0.75em;
 }
 
+img {
+    /* max-height: 25%; */
+    max-width: 100%;
+    height: auto;
+}
+
+/* header */
+.text-header {
+    background-color: #cce8cf;
+    text-align: center;
+    height: 100%;
+}
+
+.text-header h1 {
+    font-family: 'Allura', cursive;
+    font-size: 4em;
+}
+
+/* navbar */
 nav {
     background-color: #ddefe3 !important;
+}
+
+.navbar-item {
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
 .navbar-item:hover {
     background-color: #cce8cf;
 }
 
-#search-bar {
-    /* justify-content: left; */
-    margin-top: 3px;
-    background-color: #e5d8c8;
-    margin-top: 20px;
+#home {
+    padding: 5px;
+    border-radius: 5px;
 }
 
-img {
-    /* max-height: 25%; */
-    max-width: 100%;
-    height: auto;
+#home:hover {
+    background-color: #cce8cf;
 }
+
+/* main content area/cards */
 
 .card-group {
     background-color: #e6e1dd;
@@ -49,17 +75,59 @@ img {
     background-color: #e5d8c8;
 }
 
+/* sidebar and signup */
 #sidebar {
     padding: 20px;
+    text-align: center;
 }
 
+#signup-header {
+    margin-top: 10px;
+}
+
+#signup {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    padding: 15px 10px 10px 0;
+    vertical-align: middle;
+}
+
+input {
+    margin: 5px;
+    max-width: 300px;
+}
+
+.submit-button {
+    margin: 20px;
+    align-self: center;
+    width: 30%;
+    font-weight: bold;
+    background-color: #9e74d0;
+    color: white;
+    transition: color 200ms, background-color 200ms, border 200ms;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #9e74d0;
+    border: 1px solid #9e74d0;
+}
+
+/* footer */
 #footer {
     margin-top: 20px;
     padding: 10px;
     background-color: #bebab1;
 }
-
-#button-hov:hover {
-    background-color: #cce8cf;
-} 
-
