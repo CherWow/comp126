@@ -49,6 +49,7 @@ nav {
 .navbar-item {
     border-radius: 5px;
     padding-left: 5px;
+    transition: background-color 150ms;
 }
 
 .navbar-item:hover {
@@ -58,6 +59,7 @@ nav {
 #home {
     padding: 5px;
     border-radius: 5px;
+    transition: background-color 150ms;
 }
 
 #home:hover {
@@ -139,6 +141,16 @@ input {
     margin-bottom: 5px;
 }
 
-#footer p i {
+.contact-link {
+    color: black;
+    text-decoration: underline;
+    transition: color 150ms;
+}
+
+.contact-link:hover {
+    color: white;
+}
+
+#footer p a i {
     margin-right: 10px;
 }
