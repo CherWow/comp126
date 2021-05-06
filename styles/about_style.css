@@ -1,0 +1,17 @@
+/*#TODO LINK THIS STYLE SHEET TO THE INDEX.HTML*/
+
+.bio-card{
+    padding: 20px 3%;
+}
+
+.bio-description{
+    padding: 20px 3% 20px 0;
+}
+
+#bio-title{
+    margin-bottom: 20px;
+}
+
+.about-dropdown-menu{
+    width: 100%;
+}
