@@ -130,4 +130,15 @@ input {
     margin-top: 20px;
     padding: 10px;
     background-color: #bebab1;
+    width: 100%;
+}
+
+#footer p {
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#footer p i {
+    margin-right: 10px;
 }
