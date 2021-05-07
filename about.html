@@ -8,7 +8,10 @@
     <!-- Link to Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Google fonts -->
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <!-- Link to your custom stylesheet -->
@@ -31,17 +34,17 @@
         <div class="row no-gutters">
             <div class="col-sm-12">
                 <nav class="navbar navbar-light navbar-expand-sm">
-                    <a href="index.html" class="navbar-brand" id="home">Home</a>
+                    <a href="about.html" class="navbar-brand active" id="home">About</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse dropdown-menu-right" id="navbarCollapse">
                         <ul class="navbar-nav ml-auto">
                             <li class="navbar-item">
-                                <a href="products.html" class="nav-link">Products</a>
+                                <a href="index.html" class="nav-link">Home</a>
                             </li>
                             <li class="navbar-item">
-                                <a href="about.html" class="nav-link">About</a>
+                                <a href="products.html" class="nav-link">Products</a>
                             </li>
                         </ul>
                     </div>
@@ -95,20 +98,78 @@
                 </div>
             </div>
             <div class="col-8 bio-description">
+                <div>
                     <h1 id="bio-title">Biography</h1>
                     <p id="bio-paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+                </div>
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="fas fa-angle-down arrow-icon"></i> Why I started Flo Designs
+                          </button>
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fas fa-angle-down arrow-icon"></i> More about the materials
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fas fa-angle-down arrow-icon"></i> Design process
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
-        <div class="row about-dropdown-menu">
-            <ul>
-                <li>Why I started Flo Designs <i class="arrow-icon">Add bottom arrow</i></li>
-                <li>More about the materials I use <i class="arrow-icon">Add bottom arrow</i></li>
-                <li>Design process <i class="arrow-icon">Add bottom arrow</i></li>
-            </ul>
-        </div>
+        
 
+    </div>
+
+    <!-- footer: Alyssa -->
+    <div class="row no-gutters" id="footer">
+        <div class="col-sm-12">
+            <h1>Contact us!</h1>
+            <div class="row no-gutters" id="nested">
+                <div class="col-sm-12 col-md-2" id="col-1">
+                    <p><a href="#" class="contact-link"><i class="fab fa-instagram"></i>Instagram placeholder</a></p>
+                    <p><a href="#" class="contact-link"><i class="fab fa-etsy"></i>Etsy placeholder</a></p>
+                </div>
+                <div class="col-sm-12 col-md-2" id="col-2">
+                    <p><a href="#" class="contact-link"><i class="fab fa-facebook"></i>Facebook placeholder</a></p>
+                    <p><a href="mailto: florencecooley@gmail.com" class="contact-link"><i class="fas fa-envelope"></i>florencecooley@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery -->

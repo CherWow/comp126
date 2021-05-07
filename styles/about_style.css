@@ -1,7 +1,14 @@
 /*#TODO LINK THIS STYLE SHEET TO THE INDEX.HTML*/
+.card-bio-section{
+    width: 100%;
+}
 
 .bio-card{
     padding: 20px 3%;
+}
+
+.carousel-inner{
+    height: 300px;
 }
 
 .bio-description{
