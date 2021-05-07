@@ -135,6 +135,11 @@ input {
     width: 100%;
 }
 
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
 #footer p {
     font-size: 0.9em;
     margin-top: 5px;
