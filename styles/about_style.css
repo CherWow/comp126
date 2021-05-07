@@ -11,6 +11,19 @@
     height: 300px;
 }
 
+.bio-card-info{
+    padding: 15px;
+    background-color: #E5D8C8;
+}
+
+.bio-card-label{
+    display: inline;
+}
+
+p{
+    display: inline-block;
+}
+
 .bio-description{
     padding: 20px 3% 20px 0;
 }
@@ -21,4 +34,16 @@
 
 .about-dropdown-menu{
     width: 100%;
+}
+
+.card-header{
+    background-color: #BEBAB1;
+}
+
+i{
+    color: black;
+}
+
+.card-header:hover{
+    background-color: #CCE8CF;
 }
