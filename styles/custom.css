@@ -71,6 +71,7 @@ img {
 #sidebar {
     padding: 20px;
     text-align: center;
+    justify-content: center;
 }
 
 #signup-header {
@@ -84,27 +85,20 @@ img {
     justify-content: center;
 }
 
-.input-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
 label {
-    padding: 15px 10px 10px 0;
-    vertical-align: middle;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
 }
 
 input {
     margin: 5px;
-    max-width: 300px;
+    margin-left: 0px;
 }
 
 .submit-button {
     margin: 20px;
     align-self: center;
-    width: 30%;
     font-weight: bold;
     background-color: #9e74d0;
     color: white;
