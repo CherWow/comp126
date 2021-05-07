@@ -42,28 +42,18 @@ img {
 }
 
 /* navbar */
-nav {
+.bg-light {
     background-color: #ddefe3 !important;
 }
 
-.navbar-item {
+.button-nav{
     border-radius: 5px;
     padding-left: 5px;
     transition: background-color 150ms;
 }
 
-.navbar-item:hover {
-    background-color: #cce8cf;
-}
-
-#home {
-    padding: 5px;
-    border-radius: 5px;
-    transition: background-color 150ms;
-}
-
-#home:hover {
-    background-color: #cce8cf;
+.button-nav:hover {
+    background-color: #cce8cf !important;
 }
 
 /* main content area/cards */
