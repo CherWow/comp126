@@ -1,4 +1,5 @@
-/*#TODO LINK THIS STYLE SHEET TO THE INDEX.HTML*/
+/*about_style.css: Daniela*/
+
 .card-bio-section{
     width: 100%;
 }
@@ -46,4 +47,18 @@ i{
 
 .card-header:hover{
     background-color: #CCE8CF;
+}
+
+@media only screen and (max-width: 767px){
+
+    .row{
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .bio-description{
+        padding: 0 3%;
+    }
+    
 }
