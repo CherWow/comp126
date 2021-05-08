@@ -12,6 +12,10 @@
     height: 300px;
 }
 
+.carousel:hover{
+    transform: scale(1.1);
+}
+
 .bio-card-info{
     padding: 15px;
     background-color: #E5D8C8;
@@ -74,5 +78,9 @@ i{
     
     .carousel-inner{
         height: 600px;
+    }
+
+    .carousel:hover{
+        transform: none;
     }
 }
